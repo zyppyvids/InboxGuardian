@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+#evaluate-label {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#evaluate-form {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 80%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+#evaluate-form {
+    bottom: 0;
+}
+
+#text-input {
+    width: 100%;
+    padding: 10px;
+    margin-right: 1%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#evaluate-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#evaluate-btn:hover {
+    background-color: #45a049;
+}
+
+#result-container {
+    text-align: left;
+    width: 60%;
+    max-height: 50vh;
+    overflow-y: auto;
+}
+
+.result-info {
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.true {
+    background-color: #c0fdb2;
+} 
+
+.false {
+    background-color: #fdb2b2;
+}
